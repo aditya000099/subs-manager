@@ -1,6 +1,6 @@
 import React from "react";
 
-const Modal = ({ title, children, onClose, onConfirm }) => {
+const ModalU = ({ title, children, onClose, onConfirm }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-[#1c1c1d] p-6 rounded-lg shadow-lg w-1/3">
@@ -25,4 +25,4 @@ const Modal = ({ title, children, onClose, onConfirm }) => {
   );
 };
 
-export default Modal;
+export default ModalU;
