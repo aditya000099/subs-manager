@@ -105,7 +105,7 @@ const Login = () => {
             Don't have an account?{" "}
             <span
               onClick={handleSignUp}
-              className="text-purple-500 cursor-pointer"
+              className="text-rose-500 cursor-pointer"
             >
               Signup Here
             </span>
